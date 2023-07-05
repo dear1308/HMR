@@ -1,0 +1,31 @@
+Заливка для svg-галлереи
+1. Попробовать Скрипты - работать по классам, иначе в просмотре не работает (может быть делать через $this)
+2.  width="500px" height="350px" надо заменить на 
+width="100%" height="100%"
+
+3. Для svg галлереи - стили надо делать с 
+Регулярка для замены стилей (м.б. имя файла+стиль)
+find:  fil(\d)   replace:kkk-fil$1
+find:  str(\d)   replace:kkk-str$1
+*************************************************
+Заливка для слайдера.
+1. Размеры удалить
+2. В свг должно быть три линии
+3. Свг должен быть класс: <svg id="svg-hand" class="svg-for-slider" xmlns="
+4. Должно быть 3 линии с классами:
+	class="slider-dash slider-line-3 slider-fill-stroke"
+	class="slider-dash slider-line-2 slider-fill-stroke"
+	class="slider-dash slider-line-1 slider-fill-stroke"
+	
+	slider-dash - испльзуется для поиска и присвоения анимации
+	slider-fill-stroke -нулевая заливка и общая линия
+		
+	.line-first {stroke: #fff !important} - только для орнамента,
+	т.к. общая темная обводка плохо смотрится
+	
+Для заливки -  class="slider-fill-opacity" (нулевая прозрачность)
+
+id="borderShape" class="slider-fill-background slider-zero"
+
+$("#container_div_id").html("");
+*************************************************

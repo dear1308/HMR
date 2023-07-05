@@ -1,0 +1,6 @@
+  stroke: rgba(109,110,113, .75); 
+  fill: none; 
+  stroke-dasharray: 300;
+  stroke-dashoffset: var(--leftPercent);
+  animation: left 5s ease-in forwards;
+  transition: stroke-dashoffset 2s;
