@@ -7,7 +7,7 @@
     background-size:cover;
     background-attachment:fixed !important;
 }
-
+dasdfasdfsad
 .top_slider .slide1 .flex_caption1 {
     position:absolute;
     z-index:30;
