@@ -7,7 +7,7 @@
   include_once 'inc_functions/titles.inc.php';
   // session_start();
 ?>
-
+ ddd
 <html lang="<?= $lang?>">
   <head>
     <title><?=$title?></title>
